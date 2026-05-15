@@ -70,7 +70,7 @@ void open_mode_window(GtkWidget *widget, gpointer data) {
     gtk_fixed_put(GTK_FIXED(fixed), button_pvp, 110, 100);
     gtk_widget_set_name(button_pvp, "glow_button");
 
-    button_ai = gtk_button_new_with_label("AI");
+    button_ai = gtk_button_new_with_label("vs Computer");
     gtk_widget_set_size_request(button_ai, 150, 50);
     g_signal_connect(button_ai, "clicked", G_CALLBACK(open_chessboard), app);
     gtk_fixed_put(GTK_FIXED(fixed), button_ai, 320, 100);
@@ -203,7 +203,7 @@ void open_chessboard(GtkWidget *widget, gpointer data) {
     int i, j;
 
     window = gtk_application_window_new(app);
-    gtk_window_set_title(GTK_WINDOW(window), "PvP Mode");
+    gtk_window_set_title(GTK_WINDOW(window), "vs Computer Mode");
     gtk_window_set_default_size(GTK_WINDOW(window), 580, 680);
     gtk_window_move(GTK_WINDOW(window), 700, 100);
 
