@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/chessbot.dir/src/mainn.c.o CMakeFiles/chessbot.dir/src/game.c.o CMakeFiles/chessbot.dir/src/globals.c.o CMakeFiles/chessbot.dir/src/guii.c.o -o chessbot  -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 

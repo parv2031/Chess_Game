@@ -1,0 +1,3 @@
+/home/parv/Chess_Game/build/CMakeFiles/chessbot.dir
+/home/parv/Chess_Game/build/CMakeFiles/edit_cache.dir
+/home/parv/Chess_Game/build/CMakeFiles/rebuild_cache.dir
